@@ -1,15 +1,16 @@
 import React from 'react';
 import './Cards.css';
+import './About.css';
 import CardItem from './CardItem';
 
 function About() {
   return (
-    <div className='cards' id="about">
+    <div className='about' id="about">
       <h1>ABOUT</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
+            {/* <CardItem
               src='images/img-9.jpg'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
               label='Adventure'
@@ -20,7 +21,35 @@ function About() {
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
               path='/services'
-            />
+            /> */}
+            <div className='about__video'>
+            <iframe
+              className='about__iframe'
+              // width="480"
+              // height="250"
+              src="https://www.youtube.com/embed/8RZqPq1-1Tw"
+              title="San Francisco"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write;
+              encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            >
+            </iframe>
+            </div>
+            <div className='about__text'>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus et dui sit amet velit pharetra imperdiet. Sed libero odio,
+                convallis ut eros in, dictum luctus nisi. Aenean finibus ante purus,
+                eleifend egestas justo convallis eget. Proin vel rutrum sem. Nam egestas
+                sodales venenatis. Curabitur blandit imperdiet laoreet. Nam aliquet nisi
+                vel lobortis malesuada. Praesent consequat varius ipsum non imperdiet.
+                Nam ut purus vitae dui venenatis imperdiet a ac leo. Etiam lacinia finibus
+                vehicula. Aliquam nec tincidunt nulla. Morbi dictum sem ac gravida congue.
+                Etiam at aliquet elit, non mollis urna. Ut suscipit faucibus libero vitae
+                iaculis. Ut ligula odio, suscipit nec velit a, auctor ornare felis.
+              </p>
+            </div>
           </ul>
           
         </div>

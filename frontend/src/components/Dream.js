@@ -1,10 +1,11 @@
 import React from 'react';
 import './Cards.css';
+import './Dream.css';
 import CardItem from './CardItem';
 
 function Dream() {
   return (
-    <div className='cards' id="dream">
+    <div className='dream' id="dream">
       <h1>THE DREAM</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
