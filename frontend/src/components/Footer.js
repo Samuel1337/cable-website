@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the CABLE EXPERIENCE newsletter to receive our newest updates
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -24,7 +24,8 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
+      <img className='footer-logo' src="images/cable-transparent-gold.png" />
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
@@ -64,16 +65,15 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i className='fab fa-typo3' />
+              CABLE PRODUCTIONS
             </Link>
           </div>
-          <small className='website-rights'>TRVL © 2020</small>
+          <small className='website-rights'>CABLE PRODUCTIONS © 2023</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
               to='/'
-              target='_blank'
+              // target='_blank'
               aria-label='Facebook'
             >
               <i className='fab fa-facebook-f' />
@@ -81,7 +81,7 @@ function Footer() {
             <Link
               className='social-icon-link instagram'
               to='/'
-              target='_blank'
+              // target='_blank'
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
@@ -89,7 +89,7 @@ function Footer() {
             <Link
               className='social-icon-link youtube'
               to='/'
-              target='_blank'
+              // target='_blank'
               aria-label='Youtube'
             >
               <i className='fab fa-youtube' />
@@ -97,7 +97,7 @@ function Footer() {
             <Link
               className='social-icon-link twitter'
               to='/'
-              target='_blank'
+              // target='_blank'
               aria-label='Twitter'
             >
               <i className='fab fa-twitter' />
@@ -105,7 +105,7 @@ function Footer() {
             <Link
               className='social-icon-link twitter'
               to='/'
-              target='_blank'
+              // target='_blank'
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
