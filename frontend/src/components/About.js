@@ -1,7 +1,6 @@
 import React from 'react';
 import './Cards.css';
 import './About.css';
-import CardItem from './CardItem';
 
 function About() {
   return (
@@ -10,23 +9,9 @@ function About() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            {/* <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            /> */}
             <div className='about__video'>
             <iframe
               className='about__iframe'
-              // width="480"
-              // height="250"
               src="https://www.youtube.com/embed/8RZqPq1-1Tw"
               title="San Francisco"
               frameborder="0"

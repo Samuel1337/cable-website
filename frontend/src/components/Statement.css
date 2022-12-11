@@ -1,0 +1,14 @@
+.statement {
+  padding: 1rem;
+  color: #fff;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.statement h1 {
+  font-size: 1.8rem;
+  letter-spacing: 0.05rem;  
+}
+
+.statement h1 span {
+  font-size: 2rem;
+}

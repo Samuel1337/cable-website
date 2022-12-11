@@ -1,10 +1,9 @@
 .about {
-  padding-inline: 4rem;
+  padding: 2rem;
   padding-top: 6rem;
-  padding-bottom: 2rem;
   color: #fff;
   min-height: 100vh;
-  background-image: url("../../public/images/charcoal.jpg");
+  background-image: url("../../public/images/background2.png");
 }
 
 .about__video {

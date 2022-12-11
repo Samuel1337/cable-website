@@ -1,7 +1,6 @@
 import React from 'react';
 import './Cards.css';
 import './Dream.css';
-import CardItem from './CardItem';
 
 function Dream() {
   return (
@@ -9,39 +8,24 @@ function Dream() {
       <h1>THE DREAM</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
+        <ul className='cards__items'>
+            <div className='dream__img-wrap'>
+              <img src="images/dream2.png" className='dream__img' />
+            </div>
+            <div className='dream__text'>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus et dui sit amet velit pharetra imperdiet. Sed libero odio,
+                convallis ut eros in, dictum luctus nisi. Aenean finibus ante purus,
+                eleifend egestas justo convallis eget. Proin vel rutrum sem. Nam egestas
+                sodales venenatis. Curabitur blandit imperdiet laoreet. Nam aliquet nisi
+                vel lobortis malesuada. Praesent consequat varius ipsum non imperdiet.
+                Nam ut purus vitae dui venenatis imperdiet a ac leo. Etiam lacinia finibus
+                vehicula. Aliquam nec tincidunt nulla. Morbi dictum sem ac gravida congue.
+                Etiam at aliquet elit, non mollis urna. Ut suscipit faucibus libero vitae
+                iaculis. Ut ligula odio, suscipit nec velit a, auctor ornare felis.
+              </p>
+            </div>
           </ul>
         </div>
       </div>
