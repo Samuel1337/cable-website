@@ -32,6 +32,8 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  width: 20rem;
+  min-width: 15rem;
 }
 
 .cards__item__link {
@@ -58,19 +60,6 @@ h1 {
   animation-duration: 2s;
 }
 
-.cards__item__pic-wrap::after {
-  content: attr(data-category);
-  position: absolute;
-  bottom: 0;
-  margin-left: 10px;
-  padding: 6px 8px;
-  max-width: calc((100%) - 60px);
-  font-size: 12px;
-  font-weight: 700;
-  color: #fff;
-  background-color: #1f98f4;
-  box-sizing: border-box;
-}
 
 .cards__item__img {
   position: absolute;

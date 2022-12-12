@@ -6,14 +6,13 @@
 }
 
 .dream__img-wrap {
-  /* padding: 2rem; */
   min-width: 50%;
 }
 
 .dream__img {
   position: relative;
   width: 100%;
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
 .dream__text {
