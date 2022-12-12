@@ -2,9 +2,96 @@
   padding: 2rem;
   padding-top: 6rem;
   color: #fff;
-  background-image: url("../../public/images/ggb.jpg");
+  background-image: url("../../public/images/ggb2.jpg");
   background-attachment: fixed;
   background-size:cover;
+  background-position: top center;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.quotes__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+  width: 100%;
+  height: 100%;
+}
+
+.quotation-mark {
+  font-family: 'Old Standard', 'sans serif';
+  font-size: 5rem;
+}
+
+.quotation-name {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.8rem;
+}
+
+.testimonial {
+  height: 100%;
+}
+
+.slide {
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
+
+.slide:hover {
+  cursor: default;
+}
+
+.slide p {
+  font-family: 'Old Standard', 'sans serif';
+  font-size: 200%;
+  text-align: center;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff;
+  color: #fff;
 }

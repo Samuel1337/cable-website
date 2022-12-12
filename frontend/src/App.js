@@ -1,4 +1,10 @@
-import React from 'react';
+import React from "react";
+import ReactDOM from "react-dom";
+
+// eslint-disable-next-line
+import "swiper/css/bundle";
+import "./components/Quotes.css";
+
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';

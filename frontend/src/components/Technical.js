@@ -6,6 +6,9 @@ import CardItem from './CardItem';
 function Technical() {
   return (
     <div className='technical' id="technical">
+      
+      <div className='technical__filter'></div>
+
       <div className='technical__container'>
         <div className='technical__wrapper'>
           <ul className='technical__items'>

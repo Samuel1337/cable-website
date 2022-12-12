@@ -12,9 +12,9 @@ function About() {
             <div className='about__video'>
             <iframe
               className='about__iframe'
-              src="https://www.youtube.com/embed/8RZqPq1-1Tw"
+              src="https://www.youtube.com/embed/ZUxfScnbf-w"
               title="San Francisco"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write;
               encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

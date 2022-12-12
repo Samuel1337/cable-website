@@ -9,6 +9,7 @@ import Explanation from '../Explanation';
 import Roadmap from '../Roadmap';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
+import Break from '../Break';
 
 function Home() {
   return (
@@ -17,10 +18,14 @@ function Home() {
       <Statement />
       <About />
       <Presentation />
-      <Technical />
+      <Break />
       <Quotes />
+      <Break />
+      <Technical />
+      <Break />
       <Explanation />
-      <Roadmap />
+      {/* <Roadmap /> */}
+      <Break />
       <Footer />
     </>
   );
