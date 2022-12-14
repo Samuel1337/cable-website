@@ -5,7 +5,7 @@ import './Dream.css';
 function Dream() {
   return (
     <div className='dream' id="dream">
-      <h1>THE DREAM</h1>
+      <h1>DREAM THE IMPOSSIBLE FOUNDATION</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
         <ul className='cards__items'>
@@ -14,16 +14,21 @@ function Dream() {
             </div>
             <div className='dream__text'>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vivamus et dui sit amet velit pharetra imperdiet. Sed libero odio,
-                convallis ut eros in, dictum luctus nisi. Aenean finibus ante purus,
-                eleifend egestas justo convallis eget. Proin vel rutrum sem. Nam egestas
-                sodales venenatis. Curabitur blandit imperdiet laoreet. Nam aliquet nisi
-                vel lobortis malesuada. Praesent consequat varius ipsum non imperdiet.
-                Nam ut purus vitae dui venenatis imperdiet a ac leo. Etiam lacinia finibus
-                vehicula. Aliquam nec tincidunt nulla. Morbi dictum sem ac gravida congue.
-                Etiam at aliquet elit, non mollis urna. Ut suscipit faucibus libero vitae
-                iaculis. Ut ligula odio, suscipit nec velit a, auctor ornare felis.
+                Many young people, just like Tony in the story of Cable,  grow up
+                with big dreams in their souls.  But circumstances would have it
+                that their dreams get snuffed out by struggle and  difficult
+                times during their early years.
+              </p>
+              <br></br>
+              <p>
+                The Dream the Impossible Foundation will honor 10 young people each
+                year with grants and dream support for one year to help them claim
+                their Impossible Dreams and move toward making them reality.
+              </p>
+              <br></br>
+              <p>
+                What better time to support our young people than when they are
+                ready to step into the world with their own unique visions!
               </p>
             </div>
           </ul>

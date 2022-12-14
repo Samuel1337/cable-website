@@ -5,32 +5,29 @@ import './Explanation.css';
 function Explanation() {
   return (
     <div className='explanation' id="explanation">
-      <h1>EXPLANATION</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-        <ul className='cards__items'>
+      <h1>CELEBRATING THE WORKERS</h1>
+      <div className='explanation__container'>
+        <div className='explanation__wrapper'>
+        <ul className='explanation__items'>
             <div className='explanation__text'>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vivamus et dui sit amet velit pharetra imperdiet. Sed libero odio,
-                convallis ut eros in, dictum luctus nisi. Aenean finibus ante purus,
-                eleifend egestas justo convallis eget. Proin vel rutrum sem. Nam egestas
-                sodales venenatis. Curabitur blandit imperdiet laoreet. Nam aliquet nisi
-                vel lobortis malesuada. Praesent consequat varius ipsum non imperdiet.
-                Nam ut purus vitae dui venenatis imperdiet a ac leo. Etiam lacinia finibus
-                vehicula. Aliquam nec tincidunt nulla. Morbi dictum sem ac gravida congue.
-                Etiam at aliquet elit, non mollis urna. Ut suscipit faucibus libero vitae
-                iaculis. Ut ligula odio, suscipit nec velit a, auctor ornare felis.
+                At the Welcome Center of the Golden Gate Bridge you will find the statue of engineer Joseph Strauss,
+                the visionary of the project. What you won’t find is a monument dedicated to the workers who risked
+                their lives to fasten each rivet and to lay each cable on the bridge.
+              </p>
+              <br></br>
+              <p>
+                Coming from diverse backgrounds each man carried the weight of their broken dreams as the lights of
+                their generation were put out by the pressing crisis. The unique project of the Golden Gate Bridge
+                gave them a chance to give a new hope to America, and with it, to rebuild their own lives.
               </p>
             </div>
             <div className='explanation__video'>
             <iframe
               className='explanation__iframe'
               src="https://www.youtube.com/embed/wp17o1hxmws"
-              title="San Francisco"
+              title="San Francisco 2"
               frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write;
-              encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             >
             </iframe>

@@ -15,12 +15,16 @@
   transform: scale(1.5);
 }
 
+.dream h1 {
+  letter-spacing: 0.05rem;
+}
+
 .dream__text {
   min-width: 50%;
   padding: 2rem;
 }
 
 .dream__text p {
-  font-size: 16px;
-  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
 }
