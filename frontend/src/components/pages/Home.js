@@ -7,6 +7,7 @@ import Technical from '../Technical';
 import Quotes from '../Quotes';
 import Explanation from '../Explanation';
 import Roadmap from '../Roadmap';
+import Acrobatics from '../Acrobatics';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Break from '../Break';
@@ -15,16 +16,17 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <Statement />
+      <Break />
       <About />
+      <Statement />
       <Presentation />
       <Break />
       <Quotes />
       <Break />
       <Technical />
-      <Break />
+      <Acrobatics />
       <Explanation />
-      {/* <Roadmap /> */}
+      <Roadmap />
       <Break />
       <Footer />
     </>

@@ -1,14 +1,19 @@
 .statement {
   padding: 1rem;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 }
 
 .statement h1 {
-  font-size: 1.8rem;
+  font-size: 3rem;
   letter-spacing: 0.05rem;  
 }
 
 .statement h1 span {
-  font-size: 2rem;
+  font-size: 3.2rem;
 }

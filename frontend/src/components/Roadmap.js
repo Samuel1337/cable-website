@@ -1,48 +1,77 @@
-import React from 'react';
-import './Cards.css';
-import CardItem from './CardItem';
+import './Roadmap.css';
+import { Button } from './Button';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Roadmap() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_j9j2vma', 'template_wwdziue', form.current, 'I4TYlK529hqAIFUA0')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  const clearFields = () => {
+    const name = document.getElementById('name');
+    const email = document.getElementById('email');
+    const message = document.getElementById('message');
+    const button = document.getElementById('button');
+    name.value = '';
+    email.value = '';
+    message.value = '';
+    button.value = 'Message Sent!';
+  }
+
   return (
-    <div className='cards' id="roadmap">
-      <h1>ROADMAP</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+    <div className='roadmap' id="roadmap">
+      <div className='roadmap__container'>
+        <section className='roadmap-subscription'>
+        <h1 className='roadmap-subscription-heading'>
+          BE A PART OF THIS DREAM
+        </h1>
+        <p className='roadmap-subscription-text'>
+          YOU ARE BUILT FOR GREATNESS
+        </p>
+        <div className='input-areas'>
+          <form ref={form} onSubmit={sendEmail}>
+            <input
+              className='roadmap-input'
+              name='user_name'
+              type='text'
+              placeholder='Your Name'
+              id='name'
             />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+            <input
+              className='roadmap-input'
+              name='user_email'
+              type='email'
+              placeholder='Your Email'
+              id='email'
             />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+            <textarea
+              className='roadmap-input'
+              name='message'
+              type='text'
+              placeholder='Your Message'
+              id='message'
             />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+            <input
+              type="submit"
+              className='btn btn--outline btn--medium'
+              value="Send"  
+              onClick={clearFields}
+              id="button"
             />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
-          </ul>
+          </form>
         </div>
+      </section>
       </div>
     </div>
   );
