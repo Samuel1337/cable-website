@@ -8,14 +8,14 @@ function Footer() {
     <div className='footer-container'>
       {/* <div className='footer-logo'> */}
       <div className='top-social-wrap'>
-        <img className='footer-logo' src="images/cable-transparent-red.png" />
+        <img className='footer-logo' src="images/heresy.png" />
         {/* </div> */}
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>The Team</h2>
             <Link to='/'>Don Propstra</Link>
             <Link to='/'>Sam Martins</Link>
-            <Link to='/'>Daniel Lopez de Llano</Link>
+            <Link to='/'>Daniel de Llano</Link>
             <Link to='/'>Marta Ribeiro</Link>
           </div>
         </div>
@@ -27,7 +27,7 @@ function Footer() {
               CABLE PRODUCTIONS
             </Link>
           <small className='website-rights'>CABLE PRODUCTIONS © 2023</small>
-          <div className='social-icons'>
+          {/* <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
               to='/'
@@ -68,7 +68,7 @@ function Footer() {
             >
               <i className='fab fa-linkedin' />
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

@@ -10,11 +10,11 @@ function Dream() {
         <div className='cards__wrapper'>
         <ul className='cards__items'>
             <div className='dream__img-wrap'>
-              <img src="images/dream2.png" className='dream__img' />
+              <img src="images/dream3.png" className='dream__img' />
             </div>
             <div className='dream__text'>
               <p>
-                Many young people, just like Tony in the story of Cable,  grow up
+                Many young people grow up
                 with big dreams in their souls.  But circumstances would have it
                 that their dreams get snuffed out by struggle and  difficult
                 times during their early years.

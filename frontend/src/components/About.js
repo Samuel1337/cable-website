@@ -21,16 +21,25 @@ function About() {
             </div>
             <div className='about__text'>
               <p>
-                All Strauss needed was men and money. Experts said that at least 35 men
-                would die building the bridge. The men came anyway. Forced by the
-                Great Depression, they came from nearby and as far away as Oklahoma,
-                Arkansas, and New York City. And finally, thanks to his grit and
-                determination, he got the money.
+                Everybody knows the Golden Gate Bridge.
+              </p>
+              <p>
+                It is San Francisco's Impossible Dream.
+              </p>
+              <br></br>
+              <p>
+                They said it could not be built. The economy, the politics, and the elements of nature
+                were not in its favor.
+                While many iconic films feature this world wonder, there is not
+                a single story about how the Impossible Dream came true.
+              </p>
+              <p>
+                Until now.
               </p>
               <br></br>
               <p>
                 As a tribute to the courageous men who built this glorious bridge, Cable
-                Productions is proud to introduce Cable, The Golden Gate Epic.
+                Productions is proud to introduce Cable, The Golden Gate Musical.
               </p>
             </div>
           </ul>

@@ -1,7 +1,10 @@
 .roadmap {
   padding: 4rem;
   background: #fff;
-  background-image: url("../../public/images/charcoal.jpg");
+  background-image: url("../../public/images/Golden_Gate_Bridge_construction_40.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -118,6 +121,14 @@
 .btn--large {
   padding: 12px 26px;
   font-size: 20px;
+}
+
+.btn--yellow {
+  background-color: #FEBF10;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
 }
 
 .btn--large:hover,

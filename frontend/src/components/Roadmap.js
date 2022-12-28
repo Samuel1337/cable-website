@@ -37,7 +37,7 @@ function Roadmap() {
           BE A PART OF THIS DREAM
         </h1>
         <p className='roadmap-subscription-text'>
-          YOU ARE BUILT FOR GREATNESS
+          LET'S BUILD SOMETHING GREAT
         </p>
         <div className='input-areas'>
           <form ref={form} onSubmit={sendEmail}>
@@ -64,7 +64,7 @@ function Roadmap() {
             />
             <input
               type="submit"
-              className='btn btn--outline btn--medium'
+              className='btn btn--medium btn--yellow'
               value="Send"  
               onClick={clearFields}
               id="button"

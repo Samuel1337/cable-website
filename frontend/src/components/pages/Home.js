@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Statement from '../Statement';
 import About from '../About';
-import Presentation from '../Dream';
+import Dream from '../Dream';
 import Technical from '../Technical';
 import Quotes from '../Quotes';
 import Explanation from '../Explanation';
@@ -19,13 +19,13 @@ function Home() {
       <Break />
       <About />
       <Statement />
-      <Presentation />
+      <Dream />
       <Break />
       <Quotes />
       <Break />
-      <Technical />
-      <Acrobatics />
+      {/* <Technical /> */}
       <Explanation />
+      <Acrobatics />
       <Roadmap />
       <Break />
       <Footer />

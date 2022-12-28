@@ -1,7 +1,12 @@
 .dream {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
-  padding-top: 6rem;
+  padding-top: 10rem;
   color: #fff;
+  min-height: 100vh;
   background-image: url("../../public/images/charcoal.jpg");
 }
 
