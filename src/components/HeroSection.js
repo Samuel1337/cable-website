@@ -13,7 +13,7 @@ function HeroSection() {
     <div className='hero-container' id="home">
       <video
         preload="none"
-        poster="./images/img-9.jpg" 
+        poster="./images/poster1.png" 
         src='./videos/video-3.mp4'
         autoPlay
         loop

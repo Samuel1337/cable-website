@@ -12,7 +12,14 @@ function HeroSection() {
 
   return (
     <div className='acrobatics-container' id="home">
-      <video src='./videos/acrobatics.mp4' className='acrobatics-video' autoPlay loop muted />
+      <video
+      src='./videos/acrobatics.mp4'
+      preload='none'
+      poster='./images/poster2.png'
+      className='acrobatics-video'
+      autoPlay
+      loop
+      muted />
       {/* <p>Holograms, Projections, Acrobatics, and more</p> */}
       <Break/>
     </div>
