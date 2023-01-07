@@ -1,0 +1,30 @@
+.loading {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader{
+margin: 0 0 2em;
+height: 100px;
+width: 20%;
+text-align: center;
+padding: 1em;
+margin: 0 auto 1em;
+display: inline-block;
+vertical-align: top;
+}
+
+/*
+Set the color of the icon
+*/
+svg path,
+svg rect{
+fill: #c0362c;
+}

@@ -11,9 +11,16 @@ function HeroSection() {
 
   return (
     <div className='hero-container' id="home">
-      <video src='/videos/video-3.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>WHAT ARE YOU WAITING FOR?</p>
+      <video
+        preload="none"
+        poster="./images/img-9.jpg" 
+        src='./videos/video-3.mp4'
+        autoPlay
+        loop
+        muted
+      />
+      <h1>CABLE, THE GOLDEN GATE EPIC</h1>
+      <p>ADVENTURE AWAITS</p>
       <div className='hero-btns'>
         <Button
           className='btns'
