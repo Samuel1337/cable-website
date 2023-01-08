@@ -7,7 +7,7 @@
   padding-top: 10rem;
   color: #fff;
   min-height: 100vh;
-  background-image: url("../../public/images/charcoal.jpg");
+  background-image: url("../images/charcoal.jpg");
 }
 
 .dream__img-wrap {
@@ -31,5 +31,5 @@
 
 .dream__text p {
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }

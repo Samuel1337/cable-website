@@ -7,7 +7,7 @@
   padding-top: 6rem;
   color: #fff;
   min-height: 100vh;
-  background-image: url("../../public/images/background2.png");
+  background-image: url("../images/background2.png");
 }
 
 .novel__video {
@@ -32,5 +32,5 @@
 
 .novel__text p {
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }

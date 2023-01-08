@@ -53,6 +53,14 @@
     font-size: 70px;
     margin-top: -150px;
   }
+
+  .acrobatics-video {
+    object-fit: contain;
+  }
+
+  .acrobatics-container {
+    height: fit-content;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -72,5 +80,13 @@
 
   .btn {
     width: 100%;
+  }
+  
+  .acrobatics-video {
+    object-fit: contain;
+  }
+
+  .acrobatics-container {
+    height: fit-content;
   }
 }

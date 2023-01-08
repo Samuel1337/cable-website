@@ -3,7 +3,7 @@
   padding-top: 6rem;
   color: #fff;
   min-height: 100vh;
-  background-image: url("../../public/images/background2.png");
+  background-image: url("../images/background2.png");
 } 
 
 .explanation__container {
@@ -49,7 +49,7 @@
 
 .explanation__text p {
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 @media only screen and (min-width: 1024px) {

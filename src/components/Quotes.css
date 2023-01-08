@@ -2,7 +2,7 @@
   padding: 2rem;
   padding-top: 6rem;
   color: #fff;
-  background-image: url("../../public/images/ggb2.jpg");
+  background-image: url("../images/ggb2.jpg");
   background-attachment: fixed;
   background-size:cover;
   background-position: top center;
@@ -102,5 +102,9 @@
   .slide p {
     width: auto;
     font-size: 150%;
+  }
+
+  .quotes {
+    background-attachment:inherit;
   }
 }

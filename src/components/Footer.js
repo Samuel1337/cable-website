@@ -2,13 +2,14 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import imgSrc from "../images/heresy.png";
 
 function Footer() {
   return (
     <div className='footer-container'>
       {/* <div className='footer-logo'> */}
       <div className='top-social-wrap'>
-        <img className='footer-logo' src="images/heresy.png" />
+        <img className='footer-logo' src={imgSrc} />
         {/* </div> */}
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
@@ -16,7 +17,6 @@ function Footer() {
             <Link to='/'>Don Propstra</Link>
             <Link to='/'>Sam Martins</Link>
             <Link to='/'>Daniel de Llano</Link>
-            <Link to='/'>Marta Ribeiro</Link>
           </div>
         </div>
       </div>

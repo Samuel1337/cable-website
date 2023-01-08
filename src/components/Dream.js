@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import './Dream.css';
+import dreamSrc from "../images/dream3.png";
 
 function Dream() {
   return (
@@ -10,7 +11,7 @@ function Dream() {
         <div className='cards__wrapper'>
         <ul className='cards__items'>
             <div className='dream__img-wrap'>
-              <img src="images/dream3.png" className='dream__img' />
+              <img src={dreamSrc} className='dream__img' />
             </div>
             <div className='dream__text'>
               <p>
