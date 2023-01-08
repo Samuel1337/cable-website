@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cable-website/static/css/main.55222da9.css",
-    "main.js": "/cable-website/static/js/main.a6a2699b.js",
+    "main.css": "/cable-website/static/css/main.eb8e2ce4.css",
+    "main.js": "/cable-website/static/js/main.1fe3ccc8.js",
     "static/media/background2.png": "/cable-website/static/media/background2.e4b440592d0c6e1d3510.png",
     "static/media/ggb2.jpg": "/cable-website/static/media/ggb2.594b14adb309eb4c025b.jpg",
     "static/media/charcoal.jpg": "/cable-website/static/media/charcoal.5107867e42e4796e97e0.jpg",
@@ -9,14 +9,15 @@
     "static/media/Golden_Gate_Bridge_construction_40.jpg": "/cable-website/static/media/Golden_Gate_Bridge_construction_40.a3042fee66951869b866.jpg",
     "static/media/img-2.jpg": "/cable-website/static/media/img-2.22d8d33ba87e364c181b.jpg",
     "static/media/img-1.jpg": "/cable-website/static/media/img-1.a5711c2b87bd9b14408d.jpg",
+    "static/media/Golden_Gate_Bridge_construction_42.jpg": "/cable-website/static/media/Golden_Gate_Bridge_construction_42.cb271b43e0f7874ca6bc.jpg",
     "static/media/libel-suit-rg.otf": "/cable-website/static/media/libel-suit-rg.ee520ceacdbc6843890c.otf",
     "static/media/img-8.jpg": "/cable-website/static/media/img-8.bbcabc7bd77a893a2642.jpg",
     "index.html": "/cable-website/index.html",
-    "main.55222da9.css.map": "/cable-website/static/css/main.55222da9.css.map",
-    "main.a6a2699b.js.map": "/cable-website/static/js/main.a6a2699b.js.map"
+    "main.eb8e2ce4.css.map": "/cable-website/static/css/main.eb8e2ce4.css.map",
+    "main.1fe3ccc8.js.map": "/cable-website/static/js/main.1fe3ccc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.55222da9.css",
-    "static/js/main.a6a2699b.js"
+    "static/css/main.eb8e2ce4.css",
+    "static/js/main.1fe3ccc8.js"
   ]
 }
