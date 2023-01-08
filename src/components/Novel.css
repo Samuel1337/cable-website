@@ -1,0 +1,36 @@
+.novel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  padding-top: 6rem;
+  color: #fff;
+  min-height: 100vh;
+  background-image: url("../../public/images/background2.png");
+}
+
+.novel__video {
+  padding: 2rem;
+  min-width: 50%;
+}
+
+.novel__iframe {
+  width: 100%;
+  min-height: 15rem;
+  height: 100%;
+}
+
+.novel h1 {
+  letter-spacing: 0.05rem;
+}
+
+.novel__text {
+  min-width: 50%;
+  padding: 2rem;
+}
+
+.novel__text p {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}

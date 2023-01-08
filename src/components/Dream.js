@@ -14,7 +14,7 @@ function Dream() {
             </div>
             <div className='dream__text'>
               <p>
-                Many young people grow up
+                Just like Tony in our story, many young people grow up
                 with big dreams in their souls.  But circumstances would have it
                 that their dreams get snuffed out by struggle and  difficult
                 times during their early years.

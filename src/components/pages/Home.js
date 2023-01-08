@@ -11,6 +11,9 @@ import Acrobatics from '../Acrobatics';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Break from '../Break';
+import Novel from '../Novel';
+import Musical from '../Musical';
+import VR from '../VR';
 
 function Home() {
   return (
@@ -19,13 +22,16 @@ function Home() {
       <Break />
       <About />
       <Statement />
+      <Novel />
+      <Musical />
+      <Acrobatics />
+      <VR />
       <Dream />
       <Break />
       <Quotes />
       <Break />
       {/* <Technical /> */}
-      <Explanation />
-      <Acrobatics />
+      {/* <Explanation /> */}
       <Roadmap />
       <Break />
       <Footer />
