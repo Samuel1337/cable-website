@@ -8,6 +8,7 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = (id) => {
+    if (id === 'home') document.scrollIntoView(0,0);
     if (id) document.getElementById(id).scrollIntoView();
     setClick(false);
   };
@@ -30,7 +31,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={() => closeMobileMenu("home")}>
+          <Link  className='navbar-logo' onClick={() => closeMobileMenu("home")}>
             CABLE PRODUCTIONS
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -38,26 +39,35 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' href="home" onClick={() => closeMobileMenu("home")}>
-                HOME
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={() => closeMobileMenu("about")}
-              >
+              <Link className='nav-links' href="home" onClick={() => closeMobileMenu("about")}>
                 ABOUT
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/'
+              
                 className='nav-links'
-                onClick={() => closeMobileMenu("dream")}
+                onClick={() => closeMobileMenu("novel")}
               >
-                THE DREAM
+                NOVEL
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+              
+                className='nav-links'
+                onClick={() => closeMobileMenu("musical")}
+              >
+                MUSICAL
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+              
+                className='nav-links'
+                onClick={() => closeMobileMenu("VR")}
+              >
+                VR EXPERIENCE
               </Link>
             </li>
           </ul>

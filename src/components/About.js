@@ -34,7 +34,11 @@ function About() {
               </p>
             </div>
           </ul>
-          
+          <div className='about__subtitle'>
+            <p>NOVEL</p>
+            <p>MUSICAL</p>
+            <p>VR EXPERIENCE</p>
+          </div>          
         </div>
       </div>
     </div>

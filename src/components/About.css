@@ -20,6 +20,17 @@
   height: 100%;
 }
 
+.about__subtitle {
+  justify-content: space-around;
+  display: flex;
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.about__subtitle > p {
+  font-size: calc((2.1 - 1) * 1.2vw + 1rem);
+}
+
 .about__iframe {
   width: 100%;
   min-height: 15rem;
@@ -42,4 +53,20 @@
   font-size: calc((1.1 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
   word-wrap: break-word;
   font-family: 'Helvetica', sans-serif;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .about__video {
+    padding-block: 0;
+  }
+  
+  .about__subtitle {
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+
+  .about__subtitle > p{
+    margin-bottom: 1rem;
+  }
 }

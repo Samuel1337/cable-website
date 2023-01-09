@@ -14,18 +14,18 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>The Team</h2>
-            <Link to='/'>Don Propstra</Link>
-            <Link to='/'>Sam Martins</Link>
-            <Link to='/'>Daniel de Llano</Link>
+            <Link>Don Propstra</Link>
+            <Link>Sam Martins</Link>
+            <Link>Daniel de Llano</Link>
           </div>
         </div>
       </div>
 
       <section className='social-media'>
         <div className='social-media-wrap'>
-            <Link to='/' className='social-logo'>
-              CABLE PRODUCTIONS
-            </Link>
+            <div className='social-logo'>
+              CABLE PRODUCTIONS <span> is an incubator production company uniquely creating uplifting and inspiring entertainment.</span>
+            </div>
           <small className='website-rights'>CABLE PRODUCTIONS © 2023</small>
           {/* <div className='social-icons'>
             <Link
