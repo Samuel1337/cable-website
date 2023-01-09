@@ -3,15 +3,9 @@ import { Fade } from 'react-reveal';
 import './Cards.css';
 import './Novel.css';
 import dustBowl1 from "../images/colorized25.jpg";
-import dustBowl2 from "../images/dustbowl2.jpg";
-import dustBowl3 from "../images/dustbowl3.jpg";
 import migrant1 from "../images/colorized23.jpg";
 import migrant2 from "../images/colorized24.jpg";
-import migrant3 from "../images/migrant3.jpg";
-import hopping1 from "../images/hopping1.jpg";
 import greatDepression1 from "../images/colorized19.jpg";
-import greatDepression2 from "../images/great_depression2.jpg";
-import greatDepression3 from "../images/great_depression3.jpg";
 import GoldenGateBridge1 from "../images/colorized5.jpg";
 import GoldenGateBridge2 from "../images/colorized14.jpg";
 
@@ -50,17 +44,11 @@ function Novel() {
                 <br></br>
                 <img src={greatDepression1} className="novel__img" />
                 <p className='description'>Mass of unemployed during the Great Depression</p>
-                {/* <img src={dustBowl2} className="novel__img" />
-                <img src={hopping1} className="novel__img" />
-                
-                <img src={migrant3} className="novel__img" />
-                <img src={dustBowl3} className="novel__img" /> */}
               </Fade>
             </div>
 
             <div className='novel__column'>
               <Fade bottom distance="10%">
-                {/* <img src={greatDepression2} className="novel__img" /> */}
                 <img src={GoldenGateBridge1} className="novel__img" />
                 <p className='description'>Cabling of the Golden Gate Bridge</p>
                 <p>
@@ -68,12 +56,11 @@ function Novel() {
                 </p>
                 <img src={GoldenGateBridge2} className="novel__img" />
                 <p className='description'>Cable crew laying the catwalk</p>
-                {/* <img src={greatDepression3} className="novel__img" /> */}
               </Fade>
             </div>
           
           </div>     
-
+          <p className='credits__palette'>Pictures colorized for the first time in history using <a href='https://palette.fm' target="_blank">Palette.fm</a></p>
         </div>
       </div>
     </div>
