@@ -6,6 +6,7 @@
   justify-content:space-around;
   align-items: center;
   height: 100vh;
+  background-image: url("../images/background2.png");
 }
 
 .top-social-wrap {

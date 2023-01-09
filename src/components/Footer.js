@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import imgSrc from "../images/heresy.png";
+import imgSrc from "../images/cable-transparent-gold.png";
 
 function Footer() {
   return (

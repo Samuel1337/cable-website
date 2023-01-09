@@ -23,8 +23,8 @@ function Home() {
       <About />
       <Statement />
       <Novel />
-      <Acrobatics />
       <Musical />
+      <Acrobatics />
       <VR />
       <Dream />
       <Break />
