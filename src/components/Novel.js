@@ -2,44 +2,78 @@ import React, { useEffect } from 'react';
 import { Fade } from 'react-reveal';
 import './Cards.css';
 import './Novel.css';
+import dustBowl1 from "../images/colorized25.jpg";
+import dustBowl2 from "../images/dustbowl2.jpg";
+import dustBowl3 from "../images/dustbowl3.jpg";
+import migrant1 from "../images/colorized23.jpg";
+import migrant2 from "../images/colorized24.jpg";
+import migrant3 from "../images/migrant3.jpg";
+import hopping1 from "../images/hopping1.jpg";
+import greatDepression1 from "../images/colorized19.jpg";
+import greatDepression2 from "../images/great_depression2.jpg";
+import greatDepression3 from "../images/great_depression3.jpg";
+import GoldenGateBridge1 from "../images/colorized5.jpg";
+import GoldenGateBridge2 from "../images/colorized14.jpg";
+
 
 function Novel() {  
 
   return (
     <div className='novel' id="novel">
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
+      <div className='novel__container'>
+        <div className='novel__wrapper'>
           
-          <ul className='cards__items'>
-            <div className='novel__video'>
-            {/* <iframe
-              className='novel__iframe'
-              src="https://www.youtube.com/embed/ZUxfScnbf-w"
-              title="San Francisco"
-              frameBorder="0"
-              allowFullScreen
-            >
-            </iframe> */}
-            </div>
-            <div className='novel__text'>
+          <div className='novel__flex'>
+            
+            <div className='novel__column'>
               <Fade bottom distance="10%">
-                <h1>CABLE, THE NOVEL</h1>
-              <br></br>
+                <h1>CABLE,</h1><h1>THE NOVEL</h1>
+                <br></br>
                 <p>
                   We have been developing an underlying novel that will be the foundation for all our creative expressions.
                 </p>
-              <br></br>
+                <br></br>
+                <img src={dustBowl1} className="novel__img" />
+                <p className='description'>Dust storms in Oklahoma</p>
+                <img src={migrant1} className="novel__img" />
+                <p className='description'>Family of "Okies" migrating West</p>
+              </Fade>
+            </div>
+
+            <div className='novel__column'>
+              <Fade bottom distance="10%">
+                <img src={migrant2} className="novel__img" />
+                <p className='description'>Migrant mother in California</p>
                 <p>
                   The story focuses on Tony who loses his family to the Oklahoma Dust Bowl and joins the Great Migration to California in search of a new beginning.
                 </p>
-              <br></br>
+                <br></br>
+                <img src={greatDepression1} className="novel__img" />
+                <p className='description'>Mass of unemployed during the Great Depression</p>
+                {/* <img src={dustBowl2} className="novel__img" />
+                <img src={hopping1} className="novel__img" />
+                
+                <img src={migrant3} className="novel__img" />
+                <img src={dustBowl3} className="novel__img" /> */}
+              </Fade>
+            </div>
+
+            <div className='novel__column'>
+              <Fade bottom distance="10%">
+                {/* <img src={greatDepression2} className="novel__img" /> */}
+                <img src={GoldenGateBridge1} className="novel__img" />
+                <p className='description'>Cabling of the Golden Gate Bridge</p>
                 <p>
                   In the magnificent city of San Francisco he embarks upon a journey of risk and danger, friendship and betrayal, love lost and found, as he works on the construction of the Golden Gate Bridge,<span className='italic'> the Impossible Dream.</span>
                 </p>
+                <img src={GoldenGateBridge2} className="novel__img" />
+                <p className='description'>Cable crew laying the catwalk</p>
+                {/* <img src={greatDepression3} className="novel__img" /> */}
               </Fade>
             </div>
-          </ul>
           
+          </div>     
+
         </div>
       </div>
     </div>

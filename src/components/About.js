@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import './About.css';
-import picture from '../images/Golden_Gate_Bridge_construction_42.jpg'
+import picture from '../images/colorized17.jpg'
 import { Fade } from 'react-reveal';
 
 function About() {
