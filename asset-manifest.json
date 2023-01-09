@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cable-website/static/css/main.01e54f66.css",
-    "main.js": "/cable-website/static/js/main.63d22fb6.js",
+    "main.css": "/cable-website/static/css/main.64956162.css",
+    "main.js": "/cable-website/static/js/main.54fb3d8f.js",
     "static/media/video-3.mp4": "/cable-website/static/media/video-3.915dcd0328d84a77202b.mp4",
     "static/media/acrobatics.mp4": "/cable-website/static/media/acrobatics.9424d285765891e31795.mp4",
     "static/media/background2.png": "/cable-website/static/media/background2.e4b440592d0c6e1d3510.png",
@@ -11,19 +11,31 @@
     "static/media/poster1.png": "/cable-website/static/media/poster1.4a579faea6c22a57af2d.png",
     "static/media/poster2.png": "/cable-website/static/media/poster2.844371cbc7e8e3fef864.png",
     "static/media/ledback3.png": "/cable-website/static/media/ledback3.3484f511b983a631f268.png",
+    "static/media/dustbowl2.jpg": "/cable-website/static/media/dustbowl2.e64df8071672e820dae1.jpg",
+    "static/media/great_depression3.jpg": "/cable-website/static/media/great_depression3.51e7840bf16b3609ecba.jpg",
     "static/media/Golden_Gate_Bridge_construction_40.jpg": "/cable-website/static/media/Golden_Gate_Bridge_construction_40.a3042fee66951869b866.jpg",
     "static/media/img-2.jpg": "/cable-website/static/media/img-2.22d8d33ba87e364c181b.jpg",
+    "static/media/great_depression2.jpg": "/cable-website/static/media/great_depression2.a81d10deb57f7053cea5.jpg",
     "static/media/img-1.jpg": "/cable-website/static/media/img-1.a5711c2b87bd9b14408d.jpg",
-    "static/media/Golden_Gate_Bridge_construction_42.jpg": "/cable-website/static/media/Golden_Gate_Bridge_construction_42.cb271b43e0f7874ca6bc.jpg",
+    "static/media/hopping1.jpg": "/cable-website/static/media/hopping1.877a5f22b63131e57c6b.jpg",
+    "static/media/dustbowl3.jpg": "/cable-website/static/media/dustbowl3.93d92b495ecc9872e1b4.jpg",
+    "static/media/colorized19.jpg": "/cable-website/static/media/colorized19.44a319944b16c684c1d8.jpg",
+    "static/media/colorized24.jpg": "/cable-website/static/media/colorized24.ca4c12c76397d4318754.jpg",
+    "static/media/colorized17.jpg": "/cable-website/static/media/colorized17.a5a443ad3b02d43bf1dd.jpg",
+    "static/media/colorized14.jpg": "/cable-website/static/media/colorized14.20c9c9f1f0d12d9ba822.jpg",
+    "static/media/colorized23.jpg": "/cable-website/static/media/colorized23.e2b68407a1c5549d6c33.jpg",
     "static/media/libel-suit-rg.otf": "/cable-website/static/media/libel-suit-rg.ee520ceacdbc6843890c.otf",
     "static/media/heresy.png": "/cable-website/static/media/heresy.fafcb036b22fd2ed1fbb.png",
+    "static/media/colorized5.jpg": "/cable-website/static/media/colorized5.7f3607ef65a3a39d4ee7.jpg",
     "static/media/img-8.jpg": "/cable-website/static/media/img-8.bbcabc7bd77a893a2642.jpg",
+    "static/media/colorized25.jpg": "/cable-website/static/media/colorized25.095455c8bcca07502af2.jpg",
+    "static/media/migrant3.jpg": "/cable-website/static/media/migrant3.d3137643b5b8dd03e439.jpg",
     "index.html": "/cable-website/index.html",
-    "main.01e54f66.css.map": "/cable-website/static/css/main.01e54f66.css.map",
-    "main.63d22fb6.js.map": "/cable-website/static/js/main.63d22fb6.js.map"
+    "main.64956162.css.map": "/cable-website/static/css/main.64956162.css.map",
+    "main.54fb3d8f.js.map": "/cable-website/static/js/main.54fb3d8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.01e54f66.css",
-    "static/js/main.63d22fb6.js"
+    "static/css/main.64956162.css",
+    "static/js/main.54fb3d8f.js"
   ]
 }
