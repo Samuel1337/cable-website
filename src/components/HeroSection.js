@@ -4,6 +4,7 @@ import { Button } from './Button';
 import './HeroSection.css';
 import videoSrc from '../videos/video-3.mp4';
 import posterSrc from '../images/poster1.png';
+import titleSrc from '../images/cable-title.png';
 
 function HeroSection() {
 
@@ -23,8 +24,9 @@ function HeroSection() {
         muted
       />
       <div className='hero-island'>
-        <h1>CABLE, THE GOLDEN GATE EPIC</h1>
-        <p>ADVENTURE AWAITS</p>
+        <img src={titleSrc} alt="" />
+        {/* <h1>CABLE, THE GOLDEN GATE EPIC</h1> */}
+        {/* <p>ADVENTURE AWAITS</p> */}
         <div className='hero-btns'>
           <Button
             className='btns'

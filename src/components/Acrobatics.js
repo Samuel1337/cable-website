@@ -22,8 +22,6 @@ function HeroSection() {
       playsInline
       loop
       muted />
-      {/* <p>Holograms, Projections, Acrobatics, and more</p> */}
-      <Break/>
     </div>
   );
 }

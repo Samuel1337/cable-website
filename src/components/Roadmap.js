@@ -2,6 +2,7 @@ import './Roadmap.css';
 import { Button } from './Button';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Fade } from 'react-reveal';
 
 function Roadmap() {
 
@@ -33,13 +34,16 @@ function Roadmap() {
     <div className='roadmap' id="roadmap">
       <div className='roadmap__container'>
         <section className='roadmap-subscription'>
+        <Fade>
         <h1 className='roadmap-subscription-heading'>
           BE A PART OF THIS DREAM
         </h1>
         <p className='roadmap-subscription-text'>
           LET'S BUILD SOMETHING GREAT
         </p>
+        </Fade>
         <div className='input-areas'>
+        <Fade>
           <form ref={form} onSubmit={sendEmail}>
             <input
               className='roadmap-input'
@@ -70,6 +74,7 @@ function Roadmap() {
               id="button"
             />
           </form>
+        </Fade>
         </div>
       </section>
       </div>

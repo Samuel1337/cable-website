@@ -162,6 +162,19 @@ cursor: default;
   white-space: nowrap;
 }
 
+.credits__palette {
+  color: white;
+  margin-block: 1rem;
+  font-family: 'Helvetica', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.credits__palette a {
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
 @media screen and (max-width: 820px) {
   .footer-links {
     padding-top: 2rem;
@@ -194,6 +207,19 @@ cursor: default;
 
   .footer-link-items {
     align-items: center;
+  }
+
+  .social-logo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-media-wrap {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 

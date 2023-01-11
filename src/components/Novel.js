@@ -60,7 +60,6 @@ function Novel() {
             </div>
           
           </div>     
-          <p className='credits__palette'>Pictures colorized for the first time in history using <a href='https://palette.fm' target="_blank">Palette.fm</a></p>
         </div>
       </div>
     </div>

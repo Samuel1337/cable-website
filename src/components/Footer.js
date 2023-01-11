@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import imgSrc from "../images/cable-transparent-gold.png";
@@ -26,6 +27,7 @@ function Footer() {
             <div className='social-logo'>
               CABLE PRODUCTIONS <span> is an incubator production company uniquely creating uplifting and inspiring entertainment.</span>
             </div>
+          <p className='credits__palette'>Pictures colorized for the first time in history using AI technology with <a href='https://palette.fm' target="_blank">Palette.fm</a></p>
           <small className='website-rights'>CABLE PRODUCTIONS © 2023</small>
           {/* <div className='social-icons'>
             <Link
@@ -69,6 +71,7 @@ function Footer() {
               <i className='fab fa-linkedin' />
             </Link>
           </div> */}
+          
         </div>
       </section>
     </div>

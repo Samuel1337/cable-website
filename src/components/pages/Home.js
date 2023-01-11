@@ -19,7 +19,6 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <Break />
       <About />
       <Statement />
       <Novel />
@@ -27,9 +26,7 @@ function Home() {
       <Acrobatics />
       <VR />
       <Dream />
-      <Break />
       <Quotes />
-      <Break />
       {/* <Technical /> */}
       {/* <Explanation /> */}
       <Roadmap />
