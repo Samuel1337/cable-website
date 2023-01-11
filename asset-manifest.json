@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/cable-website/static/css/main.2831a634.css",
-    "main.js": "/cable-website/static/js/main.7fbd96ae.js",
+    "main.css": "/cable-website/static/css/main.944e701e.css",
+    "main.js": "/cable-website/static/js/main.22c71699.js",
     "static/media/video-3.mp4": "/cable-website/static/media/video-3.915dcd0328d84a77202b.mp4",
     "static/media/acrobatics.mp4": "/cable-website/static/media/acrobatics.9424d285765891e31795.mp4",
-    "static/media/vrback5.png": "/cable-website/static/media/vrback5.daad0fa66cab3fd827ea.png",
+    "static/media/vrback6.png": "/cable-website/static/media/vrback6.fc0ea4289c2175ac2b5a.png",
     "static/media/background2.png": "/cable-website/static/media/background2.e4b440592d0c6e1d3510.png",
     "static/media/dark-broadway.png": "/cable-website/static/media/dark-broadway.4957309a384d9ed87de2.png",
     "static/media/ggb2.jpg": "/cable-website/static/media/ggb2.594b14adb309eb4c025b.jpg",
     "static/media/dream3.png": "/cable-website/static/media/dream3.d6c02febbbf90b89af84.png",
-    "static/media/charcoal.jpg": "/cable-website/static/media/charcoal.5107867e42e4796e97e0.jpg",
     "static/media/poster1.png": "/cable-website/static/media/poster1.4a579faea6c22a57af2d.png",
     "static/media/poster2.png": "/cable-website/static/media/poster2.844371cbc7e8e3fef864.png",
     "static/media/ledback3.png": "/cable-website/static/media/ledback3.3484f511b983a631f268.png",
@@ -22,16 +21,18 @@
     "static/media/colorized14.jpg": "/cable-website/static/media/colorized14.20c9c9f1f0d12d9ba822.jpg",
     "static/media/colorized23.jpg": "/cable-website/static/media/colorized23.e2b68407a1c5549d6c33.jpg",
     "static/media/libel-suit-rg.otf": "/cable-website/static/media/libel-suit-rg.ee520ceacdbc6843890c.otf",
+    "static/media/dream4.jpg": "/cable-website/static/media/dream4.097f66deb511c85ee9f2.jpg",
     "static/media/colorized5.jpg": "/cable-website/static/media/colorized5.7f3607ef65a3a39d4ee7.jpg",
     "static/media/img-8.jpg": "/cable-website/static/media/img-8.bbcabc7bd77a893a2642.jpg",
     "static/media/cable-transparent-gold.png": "/cable-website/static/media/cable-transparent-gold.ae7e6f6033948c4575cc.png",
     "static/media/colorized25.jpg": "/cable-website/static/media/colorized25.095455c8bcca07502af2.jpg",
+    "static/media/cable-title.png": "/cable-website/static/media/cable-title.72a97fcc2fda7b4bc975.png",
     "index.html": "/cable-website/index.html",
-    "main.2831a634.css.map": "/cable-website/static/css/main.2831a634.css.map",
-    "main.7fbd96ae.js.map": "/cable-website/static/js/main.7fbd96ae.js.map"
+    "main.944e701e.css.map": "/cable-website/static/css/main.944e701e.css.map",
+    "main.22c71699.js.map": "/cable-website/static/js/main.22c71699.js.map"
   },
   "entrypoints": [
-    "static/css/main.2831a634.css",
-    "static/js/main.7fbd96ae.js"
+    "static/css/main.944e701e.css",
+    "static/js/main.22c71699.js"
   ]
 }
