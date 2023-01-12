@@ -36,8 +36,8 @@ function Novel() {
 
             <div className='novel__column'>
               <Fade bottom distance="10%">
-                <img src={migrant2} className="novel__img" />
-                <p className='description'>Migrant mother in California</p>
+                <img src={migrant2} className="novel__img invisible" />
+                <p className='description invisible'>Migrant mother in California</p>
                 <p>
                   The story focuses on Tony who loses his family to the Oklahoma Dust Bowl and joins the Great Migration to California in search of a new beginning.
                 </p>

@@ -67,8 +67,8 @@ video {
   }
 
   .hero-container > .hero-island > img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -80,6 +80,11 @@ video {
 
   .hero-container > .hero-island > p {
     font-size: 30px;
+  }
+
+  .hero-container > .hero-island > img {
+    width: 80%;
+    height: 80%;
   }
 
   .btn-mobile {

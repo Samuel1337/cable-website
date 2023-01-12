@@ -40,7 +40,7 @@ function HeroSection() {
             className='btns'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
-            onClick={() => goTo("about")}
+            onClick={() => goTo("musical")}
           >
             WATCH TEASER <i className='far fa-play-circle' />
           </Button>

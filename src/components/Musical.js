@@ -9,20 +9,9 @@ function Musical() {
     <div className='musical' id="musical">
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            {/* <div className='musical__video'>
-              <Fade bottom distance="10%">
-                <img className='musical__img' src={picture} alt="" />
-              </Fade>
-            {/* <iframe 
-              className='musical__iframe'
-              src="https://www.youtube.com/embed/ZUxfScnbf-w"
-              title="San Francisco"
-              frameBorder="0"
-              allowFullScreen
-            >
-            </iframe> 
-            </div> */}
+          
+          <ul className='musical__items'>
+            
             <div className='musical__text'>
               <Fade bottom distance="10%">
                 <h1>THE GOLDEN GATE MUSICAL</h1>
@@ -34,7 +23,22 @@ function Musical() {
                 </p>
               </Fade>
             </div>
+
+            <div className='musical__video'>
+              <Fade bottom distance="10%">
+                <iframe
+                  className='explanation__iframe'
+                  src="https://www.youtube.com/embed/wp17o1hxmws"
+                  title="San Francisco 2"
+                  frameBorder="0"
+                  allowFullScreen
+                >
+                </iframe>
+              </Fade>
+            </div>
+            
           </ul>
+
         </div>
       </div>
     </div>

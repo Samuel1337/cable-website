@@ -27,8 +27,8 @@ function Footer() {
             <div className='social-logo'>
               CABLE PRODUCTIONS <span> is an incubator production company uniquely creating uplifting and inspiring entertainment.</span>
             </div>
-          <p className='credits__palette'>Pictures colorized for the first time in history using AI technology with <a href='https://palette.fm' target="_blank">Palette.fm</a></p>
           <small className='website-rights'>CABLE PRODUCTIONS © 2023</small>
+          <p className='credits__palette'>Pictures colorized for the first time in history using AI technology with <a href='https://palette.fm' target="_blank">Palette.fm</a></p>
           {/* <div className='social-icons'>
             <Link
               className='social-icon-link facebook'

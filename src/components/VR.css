@@ -61,7 +61,7 @@
 }
  
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 480px) {
   .VR__video {
     padding-block: 0;
   }

@@ -20,13 +20,14 @@ function Home() {
     <>
       <HeroSection />
       <About />
-      <Statement />
+      <Statement num="1"/>
       <Novel />
       <Musical />
       <Acrobatics />
       <VR />
       <Dream />
-      <Quotes />
+      <Statement num="2"/>
+      {/* <Quotes /> */}
       {/* <Technical /> */}
       {/* <Explanation /> */}
       <Roadmap />

@@ -21,10 +21,12 @@
 .dreams__items {
   margin-bottom: 24px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dream__header {
-  width: 50%;
+  /* width: 50%; */
 }
 
 .dream__text {
@@ -69,7 +71,7 @@
 }
  
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   .dream__video {
     padding-block: 0;
   }

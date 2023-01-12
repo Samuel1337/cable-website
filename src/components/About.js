@@ -9,7 +9,7 @@ function About() {
     <div className='about' id="about">
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ul className='cards__items'>
+          <ul className='about__items'>
             <div className='about__video'>
               <Fade bottom distance="10%">
                 <img className='about__img' src={picture} alt="" />

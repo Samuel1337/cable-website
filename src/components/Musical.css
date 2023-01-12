@@ -12,6 +12,14 @@
   background-size: cover;
 }
 
+.musical__items {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .black-filter {
   height: 100%;
   background-color: rgba(0,0,0,0.5);
@@ -20,6 +28,7 @@
 .musical__video {
   padding: 2rem;
   min-width: 50%;
+  height: 100%;
 }
 
 .musical__img {
@@ -65,9 +74,10 @@
 }
  
 
-@media only screen and (max-width: 1024px) {
-  .musical__video {
-    padding-block: 0;
+@media only screen and (max-width: 768px) {
+
+  .musical__items {
+    flex-direction: column;
   }
   
   .musical__subtitle {
