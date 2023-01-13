@@ -11,9 +11,10 @@ function Roadmap() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_j9j2vma', 'template_wwdziue', form.current, 'I4TYlK529hqAIFUA0')
+    emailjs.sendForm('service_j9j2vma', 'template_wwdziue', e.target, 'I4TYlK529hqAIFUA0')
       .then((result) => {
           console.log(result.text);
+          clearFields();
       }, (error) => {
           console.log(error.text);
       });
@@ -70,7 +71,6 @@ function Roadmap() {
               type="submit"
               className='btn btn--medium btn--yellow'
               value="Send"  
-              onClick={clearFields}
               id="button"
             />
           </form>

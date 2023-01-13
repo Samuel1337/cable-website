@@ -16,7 +16,7 @@ function Dream() {
                 <h1>DREAM</h1>
                 <h1>THE IMPOSSIBLE</h1>
                 <h1>FOUNDATION</h1>
-                {/* <img src={dreamSrc} className='dream__img' /> */}
+                {/* <img loading="lazy" src={dreamSrc} className='dream__img' /> */}
               </div>
                 
               <div className='dream__text'>

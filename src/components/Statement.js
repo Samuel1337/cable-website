@@ -19,7 +19,7 @@ function Statement(props) {
         <div className='statement' id="statement">
           <Fade bottom distance="10%">
             <h1><span>"I</span>MPOSSIBLE <span>D</span>REAMS ARE <span>P</span>OSSIBLE"</h1>
-            <p>— Don Proptra, CEO & Founder</p>
+            <p>— Don Propstra, CEO & Founder</p>
           </Fade>
         </div>
       );

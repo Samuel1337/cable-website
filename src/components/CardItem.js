@@ -7,7 +7,7 @@ function CardItem(props) {
       <li className='cards__item'>
         <Link className='cards__item__link'>
           <figure className='cards__item__pic-wrap'>
-           <img
+           <img loading="lazy"
               className='cards__item__img'
               alt='Travel Image'
               src={props.src}

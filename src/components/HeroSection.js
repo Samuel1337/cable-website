@@ -24,7 +24,7 @@ function HeroSection() {
         muted
       />
       <div className='hero-island'>
-        <img src={titleSrc} alt="" />
+        <img loading="lazy" src={titleSrc} alt="" />
         {/* <h1>CABLE, THE GOLDEN GATE EPIC</h1> */}
         {/* <p>ADVENTURE AWAITS</p> */}
         <div className='hero-btns'>

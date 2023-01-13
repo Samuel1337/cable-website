@@ -200,5 +200,8 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
+  .roadmap {
+    padding: 2rem;
+  }
 }

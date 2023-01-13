@@ -12,7 +12,7 @@ function About() {
           <ul className='about__items'>
             <div className='about__video'>
               <Fade bottom distance="10%">
-                <img className='about__img' src={picture} alt="" />
+                <img loading="lazy" className='about__img' src={picture} alt="" />
               </Fade>
             {/* <iframe 
               className='about__iframe'
