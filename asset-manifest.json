@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cable-website/static/css/main.6c5d691f.css",
-    "main.js": "/cable-website/static/js/main.66e72764.js",
+    "main.css": "/cable-website/static/css/main.4aa50201.css",
+    "main.js": "/cable-website/static/js/main.013b6b88.js",
     "static/media/fog2.png": "/cable-website/static/media/fog2.e62646e43441e2fd1039.png",
     "static/media/video-3.mp4": "/cable-website/static/media/video-3.915dcd0328d84a77202b.mp4",
     "static/media/acrobatics.mp4": "/cable-website/static/media/acrobatics.9424d285765891e31795.mp4",
@@ -29,11 +29,11 @@
     "static/media/colorized25.jpg": "/cable-website/static/media/colorized25.095455c8bcca07502af2.jpg",
     "static/media/cable-title.png": "/cable-website/static/media/cable-title.72a97fcc2fda7b4bc975.png",
     "index.html": "/cable-website/index.html",
-    "main.6c5d691f.css.map": "/cable-website/static/css/main.6c5d691f.css.map",
-    "main.66e72764.js.map": "/cable-website/static/js/main.66e72764.js.map"
+    "main.4aa50201.css.map": "/cable-website/static/css/main.4aa50201.css.map",
+    "main.013b6b88.js.map": "/cable-website/static/js/main.013b6b88.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c5d691f.css",
-    "static/js/main.66e72764.js"
+    "static/css/main.4aa50201.css",
+    "static/js/main.013b6b88.js"
   ]
 }
