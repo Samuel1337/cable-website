@@ -25,8 +25,8 @@ function Home() {
       <Musical />
       <Acrobatics />
       <VR />
-      <Dream />
       <Statement num="2"/>
+      <Dream />
       {/* <Quotes /> */}
       {/* <Technical /> */}
       {/* <Explanation /> */}

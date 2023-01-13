@@ -10,6 +10,7 @@
   background-image: url("../images/fog2.png");
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: inset 0 0 20px #000;;
 }
 
 .statement h1 {

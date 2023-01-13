@@ -51,9 +51,11 @@ function Novel() {
               <Fade bottom distance="10%">
                 <img src={GoldenGateBridge1} className="novel__img" />
                 <p className='description'>Cabling of the Golden Gate Bridge</p>
+                <br></br>
                 <p>
                   In the magnificent city of San Francisco he embarks upon a journey of risk and danger, friendship and betrayal, love lost and found, as he works on the construction of the Golden Gate Bridge,<span className='italic'> the Impossible Dream.</span>
                 </p>
+                <br></br>
                 <img src={GoldenGateBridge2} className="novel__img" />
                 <p className='description'>Cable crew laying the catwalk</p>
               </Fade>

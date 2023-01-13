@@ -14,7 +14,8 @@ function Statement(props) {
     } else if (num === "2") {
       return (
         <div className='statement' id="statement">
-          <h1><span>I</span>MPOSSIBLE <span>D</span>REAMS ARE <span>P</span>OSSIBLO</h1>
+          <h1><span>"I</span>MPOSSIBLE <span>D</span>REAMS ARE <span>P</span>OSSIBLE"</h1>
+          <p>— Don Proptra, CEO & Founder</p>
         </div>
       );
     } else {
