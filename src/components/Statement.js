@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 import './Statement.css';
 
 function Statement(props) {
@@ -7,21 +8,19 @@ function Statement(props) {
     if (num === "1") {
       return (
         <div className='statement' id="statement">
-          <h1>"<span>D</span>ARE <span>T</span>O <span>D</span>REAM"</h1>
-          <p>— Chief Engineer, Golden Gate Bridge</p>
+          <Fade bottom distance="10%">
+            <h1>"<span>D</span>ARE <span>T</span>O <span>D</span>REAM"</h1>
+            <p>— Chief Engineer, Golden Gate Bridge</p>
+          </Fade>
         </div>
       );  
     } else if (num === "2") {
       return (
         <div className='statement' id="statement">
-          <h1><span>"I</span>MPOSSIBLE <span>D</span>REAMS ARE <span>P</span>OSSIBLE"</h1>
-          <p>— Don Proptra, CEO & Founder</p>
-        </div>
-      );
-    } else {
-      return (
-        <div className='statement' id="statement">
-          <h1><span>I</span>MPOSSIBLE <span>D</span>REAMS ARE <span>P</span>OSSIBLA</h1>
+          <Fade bottom distance="10%">
+            <h1><span>"I</span>MPOSSIBLE <span>D</span>REAMS ARE <span>P</span>OSSIBLE"</h1>
+            <p>— Don Proptra, CEO & Founder</p>
+          </Fade>
         </div>
       );
     }

@@ -18,6 +18,12 @@
   letter-spacing: 0.05rem;  
 }
 
+
+.statement p {
+  font-family: 'Helvetica', sans-serif;
+  font-style: italic;
+}
+
 .statement h1 span {
   font-size: 3.2rem;
 }
