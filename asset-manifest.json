@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cable-website/static/css/main.557289b6.css",
-    "main.js": "/cable-website/static/js/main.cf37fec2.js",
+    "main.js": "/cable-website/static/js/main.a52c4bda.js",
     "static/media/fog2.png": "/cable-website/static/media/fog2.e62646e43441e2fd1039.png",
     "static/media/video-3.mp4": "/cable-website/static/media/video-3.915dcd0328d84a77202b.mp4",
     "static/media/acrobatics.mp4": "/cable-website/static/media/acrobatics.9424d285765891e31795.mp4",
@@ -30,10 +30,10 @@
     "static/media/cable-title.png": "/cable-website/static/media/cable-title.72a97fcc2fda7b4bc975.png",
     "index.html": "/cable-website/index.html",
     "main.557289b6.css.map": "/cable-website/static/css/main.557289b6.css.map",
-    "main.cf37fec2.js.map": "/cable-website/static/js/main.cf37fec2.js.map"
+    "main.a52c4bda.js.map": "/cable-website/static/js/main.a52c4bda.js.map"
   },
   "entrypoints": [
     "static/css/main.557289b6.css",
-    "static/js/main.cf37fec2.js"
+    "static/js/main.a52c4bda.js"
   ]
 }
