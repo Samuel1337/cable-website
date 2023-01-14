@@ -30,7 +30,7 @@ function VR() {
                 <br></br>
                 <br></br>
                 <p>
-                Cable, the Golden Gate VR Experience is a three part journey:
+                <span className='italic'>Cable, the Golden Gate VR Experience</span> is a three part journey:
                 an art installation, a VR experience, and an interactive exhibition.
                 Together they will provide thirty minutes of an involving sensory and
                 emotional adventure.

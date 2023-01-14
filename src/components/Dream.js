@@ -28,7 +28,7 @@ function Dream() {
                 </p>
                 <br></br>
                 <p>
-                  The Dream the Impossible Foundation will honor 10 young people each
+                  The <span className='italic'>Dream the Impossible Foundation</span> will honor young people each
                   year with grants and dream support for one year to help them claim
                   their Impossible Dreams and move toward making them reality.
                 </p>

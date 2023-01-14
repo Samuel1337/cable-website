@@ -18,7 +18,7 @@ function Musical() {
                 <br></br>
                 <br></br>
                 <p>
-                  Cable, the Golden Gate Musical brings Tony's journey to life in an exhilarating production that will combine the latest technology in the theater with world-class acting, live music, and aerial choreography.
+                  <span className='italic'>Cable, the Golden Gate Musical</span> brings Tony's journey to life in an exhilarating production that will combine the latest technology in the theater with world-class acting, music, and aerial choreography.
                   Step into the experience of spinning the iconic cables of the Golden Gate Bridge!
                 </p>
               </Fade>
