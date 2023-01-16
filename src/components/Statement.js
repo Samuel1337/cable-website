@@ -10,7 +10,7 @@ function Statement(props) {
         <div className='statement' id="statement">
           <Fade bottom distance="10%">
             <h1>"<span>D</span>ARE <span>T</span>O <span>D</span>REAM"</h1>
-            <p>— Chief Engineer, Golden Gate Bridge</p>
+            <p>— Joseph Strauss, Golden Gate Bridge</p>
           </Fade>
         </div>
       );  
@@ -19,7 +19,7 @@ function Statement(props) {
         <div className='statement' id="statement">
           <Fade bottom distance="10%">
             <h1><span>"I</span>MPOSSIBLE <span>D</span>REAMS ARE <span>P</span>OSSIBLE"</h1>
-            <p>— Don Propstra, CEO & Founder</p>
+            <p>— CEO & Founder, Cable Productions</p>
           </Fade>
         </div>
       );
