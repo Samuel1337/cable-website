@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Fade } from 'react-reveal';
 import './Cards.css';
 import './Novel.css';
@@ -27,36 +27,36 @@ function Novel() {
                   We have been developing an underlying novel that will be the foundation for all our creative expressions.
                 </p>
                 <br></br>
-                <img src={dustBowl1} className="novel__img" />
+                <img src={dustBowl1} className="novel__img" alt="dustbowl" />
                 <p className='description'>Dust storms in Oklahoma</p>
-                <img src={migrant1} className="novel__img" />
+                <img src={migrant1} className="novel__img" alt="migrant" />
                 <p className='description'>Family of "Okies" migrating West</p>
               </Fade>
             </div>
 
             <div className='novel__column'>
               <Fade bottom distance="10%">
-                <img src={migrant2} className="novel__img invisible" />
+                <img src={migrant2} className="novel__img invisible" alt="migrant two" />
                 <p className='description invisible'>Migrant mother in California</p>
                 <p>
                   The story focuses on Tony who loses his family to the Oklahoma Dust Bowl and joins the Great Migration to California in search of a new beginning.
                 </p>
                 <br></br>
-                <img src={greatDepression1} className="novel__img" />
+                <img src={greatDepression1} className="novel__img" alt="great depression" />
                 <p className='description'>Mass of unemployed during the Great Depression</p>
               </Fade>
             </div>
 
             <div className='novel__column'>
               <Fade bottom distance="10%">
-                <img src={GoldenGateBridge1} className="novel__img" />
+                <img src={GoldenGateBridge1} className="novel__img" alt="golden gate bridge" />
                 <p className='description'>Cabling of the Golden Gate Bridge</p>
                 <br></br>
                 <p>
                   In the magnificent city of San Francisco he embarks upon a journey of risk and danger, friendship and betrayal, love lost and found, as he works on the construction of the Golden Gate Bridge,<span className='italic'> the Impossible Dream.</span>
                 </p>
                 <br></br>
-                <img src={GoldenGateBridge2} className="novel__img" />
+                <img src={GoldenGateBridge2} className="novel__img" alt="golden gate bridge two" />
                 <p className='description'>Cable crew laying the catwalk</p>
               </Fade>
             </div>

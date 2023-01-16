@@ -1,17 +1,14 @@
 import React from 'react';
 import './Footer.css';
 
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import imgSrc from "../images/cable-transparent-gold.png";
 
 function Footer() {
   return (
     <div className='footer-container'>
-      {/* <div className='footer-logo'> */}
-      <div className='top-social-wrap'>
-        <img className='footer-logo' src={imgSrc} />
-        {/* </div> */}
+        <div className='top-social-wrap'>
+        <img className='footer-logo' src={imgSrc} alt="logo" />
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>The Team</h2>
@@ -28,7 +25,7 @@ function Footer() {
               CABLE PRODUCTIONS <span> is an incubator production company uniquely creating uplifting and inspiring entertainment.</span>
             </div>
           <small className='website-rights'>CABLE PRODUCTIONS © 2023</small>
-          <p className='credits__palette'>Pictures colorized for the first time in history using AI technology with <a href='https://palette.fm' target="_blank">Palette.fm</a></p>
+          <p className='credits__palette'>Pictures colorized for the first time in history using AI technology with <a href='https://palette.fm' target="_blank" rel="noreferrer">Palette.fm</a></p>
           {/* <div className='social-icons'>
             <Link
               className='social-icon-link facebook'

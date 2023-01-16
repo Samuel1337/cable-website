@@ -1,7 +1,6 @@
 import React from 'react';
 import './Cards.css';
 import './Musical.css';
-import picture from '../images/colorized17.jpg'
 import { Fade } from 'react-reveal';
 
 function Musical() {

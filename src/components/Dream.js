@@ -1,9 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import './Dream.css';
-import picture from '../images/colorized17.jpg'
 import { Fade } from 'react-reveal';
-import dreamSrc from '../images/dream3.png';
 
 function Dream() {
   return (

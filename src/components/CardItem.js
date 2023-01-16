@@ -9,13 +9,10 @@ function CardItem(props) {
           <figure className='cards__item__pic-wrap'>
            <img loading="lazy"
               className='cards__item__img'
-              alt='Travel Image'
+              alt='Travel'
               src={props.src}
             />
           </figure>
-          {/* <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.text}</h5>
-          </div> */}
         </Link>
       </li>
     </>

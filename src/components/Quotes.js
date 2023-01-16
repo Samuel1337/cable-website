@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
 // import required modules 
-import { Pagination, Navigation, Autoplay } from "swiper";
+import { Autoplay } from "swiper";
 
 import './Cards.css';
 import './Quotes.css';
