@@ -26,7 +26,7 @@ function Musical() {
             <div className='musical__video'>
               <Fade bottom distance="10%">
                 <iframe
-                  className='explanation__iframe'
+                  className='musical__iframe'
                   src="https://www.youtube.com/embed/wp17o1hxmws"
                   title="San Francisco 2"
                   frameBorder="0"
