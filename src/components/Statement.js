@@ -1,8 +1,7 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
 import './Statement.css';
-import epicSrc from "../images/fog3.png";
-import lazySrc from "../images/fog3-lazy.png";
+import epicSrc from "../images/fog3.jpg";
 
 function Statement(props) {
 
@@ -26,8 +25,7 @@ function Statement(props) {
 
   return (
     <div className='statement' id="statement">
-      <img className='low-res' src={lazySrc} alt="epic" />
-      <img className='high-res' poster={lazySrc} src={epicSrc} alt="epic" />
+      <img className='high-res' src={epicSrc} alt="epic" />
       <Fade bottom distance="10%">
         {statement(props.num)}
       </Fade>
