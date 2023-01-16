@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ab5facbe.css",
-    "main.js": "/static/js/main.e644f688.js",
+    "main.js": "/static/js/main.3dca4798.js",
     "static/media/fog2.png": "/static/media/fog2.e62646e43441e2fd1039.png",
     "static/media/video-3.mp4": "/static/media/video-3.915dcd0328d84a77202b.mp4",
     "static/media/acrobatics.mp4": "/static/media/acrobatics.9424d285765891e31795.mp4",
@@ -28,10 +28,10 @@
     "static/media/cable-title.png": "/static/media/cable-title.72a97fcc2fda7b4bc975.png",
     "index.html": "/index.html",
     "main.ab5facbe.css.map": "/static/css/main.ab5facbe.css.map",
-    "main.e644f688.js.map": "/static/js/main.e644f688.js.map"
+    "main.3dca4798.js.map": "/static/js/main.3dca4798.js.map"
   },
   "entrypoints": [
     "static/css/main.ab5facbe.css",
-    "static/js/main.e644f688.js"
+    "static/js/main.3dca4798.js"
   ]
 }
