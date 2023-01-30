@@ -6,6 +6,7 @@
   justify-content:space-around;
   align-items: center;
   height: 100vh;
+  max-height: 980px;
   background-image: url("../images/background2.png");
 }
 
@@ -164,10 +165,13 @@ cursor: default;
 
 .credits__palette {
   color: white;
-  margin-block: 1rem;
+  text-align: center;
+  padding-block: 0.5rem;
   font-family: 'Helvetica', sans-serif;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 0.7rem;
+  background: linear-gradient(90deg, rgb(119, 2, 2) 0%, rgb(116, 0, 0) 100%);
+  width: 100%;
 }
 
 .credits__palette a {

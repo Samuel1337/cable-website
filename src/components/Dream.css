@@ -6,7 +6,8 @@
   /* padding: 1rem; */
   /* padding-top: 6rem; */
   color: #fff;
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 980px;
   background-image: url("../images/dream4.png");
   background-size: cover;
   background-repeat: no-repeat;

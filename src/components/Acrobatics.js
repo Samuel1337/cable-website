@@ -4,7 +4,7 @@ import './Acrobatics.css';
 import videoSrc from '../videos/acrobatics.mp4';
 import posterSrc from '../images/poster2.png';
 
-function HeroSection() {
+function Acrobatics() {
 
   return (
     <div className='acrobatics-container' id="home">
@@ -21,4 +21,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Acrobatics;

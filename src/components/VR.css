@@ -6,7 +6,8 @@
   /* padding: 1rem; */
   /* padding-top: 6rem; */
   color: #fff;
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 980px;
   background-image: url("../images/vrback6.png");
   background-repeat: no-repeat;
   background-size: cover;
