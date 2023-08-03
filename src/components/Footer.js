@@ -15,7 +15,7 @@ function Footer() {
             <h2>The Team</h2>
             <Link>Don Propstra</Link>
             <Link>Sam Martins</Link>
-            <Link>Daniel de Llano</Link>
+            <Link>Michael Leonard</Link>
           </div>
         </div>
       </div>
