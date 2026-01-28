@@ -19,9 +19,9 @@ function Dream() {
                 
               <div className='dream__text'>
                 <p>
-                  Just like Tony in our story, many young people grow up
+e                  Just like Jesse in our story, many young people grow up
                   with big dreams in their souls.  But circumstances would have it
-                  that their dreams get snuffed out by struggle and  difficult
+                  that their dreams get snuffed out by struggle and difficult
                   times during their early years.
                 </p>
                 <br></br>
