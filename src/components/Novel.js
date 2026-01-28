@@ -39,7 +39,7 @@ function Novel() {
                 <img src={migrant2} className="novel__img invisible" alt="migrant two" />
                 <p className='description invisible'>Migrant mother in California</p>
                 <p>
-                  The story focuses on Tony who loses his family to the Oklahoma Dust Bowl and joins the Great Migration to California in search of a new beginning.
+                  The story focuses on Jesse, who loses his family to the Oklahoma Dust Bowl and joins the Great Migration to California in search of a new beginning.
                 </p>
                 <br></br>
                 <img src={greatDepression1} className="novel__img" alt="great depression" />
@@ -53,7 +53,7 @@ function Novel() {
                 <p className='description'>Cabling of the Golden Gate Bridge</p>
                 <br></br>
                 <p>
-                  In the magnificent city of San Francisco he embarks upon a journey of risk and danger, friendship and betrayal, love lost and found, as he works on the construction of the Golden Gate Bridge,<span className='italic'> the Impossible Dream.</span>
+                  In the magnificent city of San Francisco, he embarks upon a journey of risk and danger, friendship and betrayal, love lost and found, as he works on the construction of the Golden Gate Bridge,<span className='italic'> the Impossible Dream.</span>
                 </p>
                 <br></br>
                 <img src={GoldenGateBridge2} className="novel__img" alt="golden gate bridge two" />
